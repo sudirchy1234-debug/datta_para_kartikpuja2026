@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#060a18">
+<meta name="description" content="সময় — কার্তিক পূজা ২০২৬, পশ্চিম বেতাগী দত্তপাড়া সার্বজনীন কার্তিক পূজা উদযাপন পরিষদ">
+<title>সময়</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Galada&family=Hind+Siliguri:wght@400;500;600;700&family=Tiro+Bangla&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- shared SVG paint and shapes -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff1bd"/><stop offset=".4" stop-color="#f4c45c"/><stop offset=".7" stop-color="#c98a25"/><stop offset="1" stop-color="#f2bd4d"/></linearGradient>
+    <linearGradient id="gBronze" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e0a850"/><stop offset=".6" stop-color="#8b5e2b"/><stop offset="1" stop-color="#4a2f12"/></linearGradient>
+    <linearGradient id="gFlame" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#d1381f"/><stop offset=".45" stop-color="#f28c1e"/><stop offset="1" stop-color="#fff1bd"/></linearGradient>
+    <radialGradient id="gGlow"><stop offset="0" stop-color="#ffb43c" stop-opacity=".8"/><stop offset="1" stop-color="#ffb43c" stop-opacity="0"/></radialGradient>
+    <symbol id="sOrn" viewBox="0 0 260 18"><g fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"><path d="M4 9H104M156 9H256"/><path d="M130 2l8 7-8 7-8-7Z" fill="currentColor"/><path d="M112 9c4-5 8-5 10 0M148 9c-4-5-8-5-10 0"/><circle cx="108" cy="9" r="1.6" fill="currentColor"/><circle cx="152" cy="9" r="1.6" fill="currentColor"/></g></symbol>
+    <symbol id="sLotus" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M24 8c-6 6-6 16 0 24 6-8 6-18 0-24Z"/><path d="M24 32C16 30 9 24 8 14c8 1 14 8 16 18ZM24 32c8-2 15-8 16-18-8 1-14 8-16 18Z"/><path d="M8 34c10 6 22 6 32 0"/></g></symbol>
+    <symbol id="sPlay" viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5Z" fill="currentColor"/></symbol>
+    <symbol id="sPause" viewBox="0 0 24 24"><path d="M6 4h4.5v16H6ZM13.5 4H18v16h-4.5Z" fill="currentColor"/></symbol>
+    <symbol id="sFull" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="sShare" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="6" r="2.6"/><circle cx="18" cy="18" r="2.6"/><path d="M8.3 10.8l7.4-3.6M8.3 13.2l7.4 3.6"/></g></symbol>
+    <symbol id="sSpk" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5h4l5-4v13l-5-4H4Z"/><path d="M16.5 9a4 4 0 0 1 0 6M19 6.5a7.5 7.5 0 0 1 0 11"/></g></symbol>
+    <symbol id="sBell" viewBox="0 0 40 100"><path d="M20 0V30" stroke="#8b5e2b" stroke-width="2"/><path d="M20 30c-9 0-12 10-12 20v8H5v5h30v-5h-3v-8c0-10-3-20-12-20Z" fill="url(#gBronze)" stroke="#ffe3a1" stroke-width="1.2"/><circle cx="20" cy="70" r="3.6" fill="#e7b650"/></symbol>
+    <symbol id="sArr" viewBox="0 0 48 48"><path d="M10 30l14-14 14 14"/></symbol>
+  </defs>
+</svg>
+
+<div class="app">
+  <header class="bar">
+    <a class="homebtn" id="homeBtn" href="#home" aria-label="মূল পাতায় ফিরে যাও"><svg viewBox="0 0 48 48" style="color:var(--gold)"><use href="#sLotus"/></svg><span>মূল পাতা</span></a>
+    <div class="bar-title" id="barTitle">সময়</div>
+    <button class="iconbtn" id="shareBtn" aria-label="শেয়ার ও কিউআর কোড"><svg viewBox="0 0 24 24"><use href="#sShare"/></svg><span>শেয়ার</span></button>
+  </header>
+
+  <!-- ===== PAGE 01: CENTRE ===== -->
+  <main class="view" id="v-home" data-title="সময়">
+    <div class="compass">
+      <a class="ncard top" href="#darshan">
+        <svg class="arr up" viewBox="0 0 48 48"><use href="#sArr"/></svg>
+        <svg class="ic" viewBox="0 0 48 48"><path d="M6 12c6-3 12-3 18 1 6-4 12-4 18-1v26c-6-3-12-3-18 1-6-4-12-4-18-1Z"/><path d="M24 13v26"/></svg>
+        <span><span class="nt" data-pn="darshan.bn"></span><br><span class="ns" data-pn="darshan.en"></span></span>
+      </a>
+      <a class="ncard right" href="#video">
+        <svg class="arr right" viewBox="0 0 48 48"><g transform="rotate(90 24 24)"><use href="#sArr"/></g></svg>
+        <svg class="ic" viewBox="0 0 48 48"><circle cx="24" cy="24" r="18"/><path d="M20 16l13 8-13 8Z"/></svg>
+        <span><span class="nt" data-pn="video.bn"></span><br><span class="ns" data-pn="video.en"></span></span>
+      </a>
+      <div class="center">
+        <div class="hero" id="hero">
+          <div class="rays"><i></i></div>
+          <svg class="mandala" id="mandala" viewBox="0 0 400 400" aria-hidden="true"></svg>
+          <svg class="temples" id="temples" viewBox="0 0 500 150" preserveAspectRatio="none" aria-hidden="true"></svg>
+          <div class="halo" aria-hidden="true"><i></i><i></i><i></i></div>
+          <svg class="h-clock" viewBox="0 0 400 400" aria-hidden="true">
+            <circle class="face" cx="200" cy="200" r="192"/>
+            <circle class="ring" cx="200" cy="200" r="192" stroke-width="5"/>
+            <circle class="ring" cx="200" cy="200" r="178" stroke-width="1.5"/>
+            <g id="hcTicks"></g><g id="hcNums"></g>
+            <line class="hd" id="hh" x1="200" y1="200" x2="200" y2="120" stroke-width="9"/>
+            <line class="hd" id="hm" x1="200" y1="200" x2="200" y2="80" stroke-width="6"/>
+            <line class="hs" id="hs" x1="200" y1="226" x2="200" y2="62"/>
+            <circle cx="200" cy="200" r="9" fill="url(#gGold)"/>
+          </svg>
+          <div class="mist m1"></div><div class="mist m2"></div>
+          <svg class="feather fl" id="featL" viewBox="0 0 80 240" aria-hidden="true"></svg>
+          <svg class="feather fr" id="featR" viewBox="0 0 80 240" aria-hidden="true"></svg>
+          <div class="idol-wrap"><div class="aura"></div><img class="idol" id="idolImg" src="assets/idol.webp" alt="কার্তিক ঠাকুরের প্রতিমা" width="560" height="960" fetchpriority="high"></div>
+          <svg class="h-glass" viewBox="0 0 100 160" aria-hidden="true">
+            <defs><clipPath id="cpt"><path d="M18 14H82L52 78H48Z"/></clipPath><clipPath id="cpb"><path d="M48 82H52L82 146H18Z"/></clipPath></defs>
+            <g class="hg">
+              <g clip-path="url(#cpt)"><rect class="sandtop" x="18" y="14" width="64" height="64"/></g>
+              <g clip-path="url(#cpb)"><rect class="sandbot" x="18" y="82" width="64" height="64"/></g>
+              <line class="stream" x1="50" y1="78" x2="50" y2="146"/>
+              <path d="M14 10H86M14 150H86M18 14l30 64v4l-30 64M82 14L52 78v4l30 64" fill="none" stroke="url(#gGold)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+            </g>
+          </svg>
+          <div class="diya dl" id="diyaL"></div><div class="diya dr" id="diyaR"></div>
+          <div id="smoke" aria-hidden="true"></div>
+          <canvas id="parts" aria-hidden="true"></canvas>
+          <svg class="bell bl" viewBox="0 0 40 100" aria-hidden="true"><use href="#sBell"/></svg><svg class="bell br" viewBox="0 0 40 100" aria-hidden="true"><use href="#sBell"/></svg>
+          <div class="h-hint" id="hint" hidden>ছুঁলেই বাজবে সুর</div>
+          <div class="h-top">
+            <div class="h-om" aria-hidden="true">ওঁ</div>
+            <p class="h-org" data-c="committeeName"></p>
+            <h1 class="h-title" data-c="siteTitle">সময়</h1>
+            <p class="h-en">THE ARRIVAL OF KARTIKEYA</p>
+          </div>
+          <div class="frame"><i></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+      <a class="ncard left" href="#kontho">
+        <svg class="arr left" viewBox="0 0 48 48"><g transform="rotate(-90 24 24)"><use href="#sArr"/></g></svg>
+        <svg class="ic" viewBox="0 0 48 48"><path d="M24 5v5M12 35c3-3 4-8 4-14a8 8 0 0 1 16 0c0 6 1 11 4 14ZM20 39a4 4 0 0 0 8 0"/></svg>
+        <span><span class="nt" data-pn="kontho.bn"></span><br><span class="ns" data-pn="kontho.en"></span></span>
+      </a>
+      <a class="ncard bottom" href="#puja">
+        <svg class="arr down" viewBox="0 0 48 48"><g transform="rotate(180 24 24)"><use href="#sArr"/></g></svg>
+        <svg class="ic" viewBox="0 0 48 48"><path d="M16 10h16v5H16ZM18 15c-7 4-9 11-6 17 2 4 6 7 12 7s10-3 12-7c3-6 1-13-6-17M24 3c-3 3-3 5 0 7 3-2 3-4 0-7"/></svg>
+        <span><span class="nt" data-pn="puja.bn"></span><br><span class="ns" data-pn="puja.en"></span></span>
+      </a>
+    </div>
+    <div class="strip" id="strip">
+      <p class="head" style="font-size:.95rem;line-height:1.5" data-c="committeeName"></p>
+      <div class="en" style="text-align:center" data-c="year"></div>
+      <div class="head" id="cdTitle">পূজা শুরু হতে বাকি</div>
+      <div class="cd num" id="cd">
+        <div><b id="c-d">০</b><span>দিন</span></div><div><b id="c-h">০</b><span>ঘণ্টা</span></div>
+        <div><b id="c-m">০</b><span>মিনিট</span></div><div><b id="c-s">০</b><span>সেকেন্ড</span></div>
+      </div>
+      <div class="dys"><div><b>১৬</b> নভেম্বর অধিবাস</div><div><b>১৭</b> নভেম্বর মূল পূজা</div><div><b>১৮</b> নভেম্বর দ্বিতীয় দিন</div><div><b>১৯</b> নভেম্বর বিসর্জন</div></div>
+      <p class="note" style="text-align:center" data-c="venue"></p>
+    </div>
+    <section class="sec sched" id="schedSec">
+      <div class="sec-h"><span class="en">PUJA SCHEDULE</span><h3>পূজার সময়সূচী</h3><svg class="orn" viewBox="0 0 260 18"><use href="#sOrn"/></svg><p class="note">১৯ নভেম্বরের সময় ঠিক হলে যুক্ত হবে।</p></div>
+      <div class="days" id="sched"></div>
+    </section>
+    <div class="share-row"><button class="btn alt" id="shareBtn2"><svg class="i" viewBox="0 0 24 24" width="20" height="20"><use href="#sShare"/></svg> কিউআর কোড ও শেয়ার</button></div>
+  </main>
+
+  <!-- ===== TOP page · সময়ের দর্শন ===== -->
+  <section class="view" id="v-darshan" hidden>
+    <div class="page-head compact">
+      <span class="en" data-pn="darshan.en"></span>
+      <h2 tabindex="-1" data-pn="darshan.bn"></h2>
+      <svg class="orn" viewBox="0 0 260 18"><use href="#sOrn"/></svg>
+      <p>বইয়ের পাতা উল্টাতে বোতাম চাপো, অথবা পাতায় ডানে-বামে সোয়াইপ করো।</p>
+    </div>
+    <div class="book-stage"><div class="book" id="book" aria-live="polite"></div></div>
+    <div class="book-ctl">
+      <button class="btn alt" id="bPrev" aria-label="আগের পাতা">‹ আগের</button>
+      <div class="pi" id="bInd">প্রচ্ছদ</div>
+      <button class="btn" id="bNext" aria-label="পরের পাতা">পরের ›</button>
+    </div>
+  </section>
+
+  <!-- ===== RIGHT page · সময়ের প্রতিচ্ছবি ===== -->
+  <section class="view" id="v-video" hidden>
+    <div class="page-head">
+      <span class="en" data-pn="video.en"></span>
+      <h2 tabindex="-1" data-pn="video.bn"></h2>
+      <svg class="orn" viewBox="0 0 260 18"><use href="#sOrn"/></svg>
+    </div>
+    <div class="vframe">
+      <div class="vstage" id="vstage">
+        <video id="vid" playsinline preload="metadata"></video>
+        <div class="shade"></div>
+        <div class="vtag" id="vtag"></div>
+        <button class="vbig" id="vbig" aria-label="ভিডিও চালাও"><svg viewBox="0 0 24 24"><use href="#sPlay"/></svg></button>
+        <div class="vnote" id="vnote" hidden></div>
+        <div class="ctl">
+          <button class="cbtn" id="vpp" aria-label="চালাও বা থামাও"><svg viewBox="0 0 24 24"><use id="vppU" href="#sPlay"/></svg></button>
+          <input type="range" id="vseek" min="0" max="1000" value="0" aria-label="ভিডিওর অগ্রগতি">
+          <span class="time" id="vtime">০:০০ / ১:০০</span>
+          <button class="cbtn" id="vfs" aria-label="পূর্ণ পর্দা"><svg viewBox="0 0 24 24"><use href="#sFull"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="vmeta"><h3 id="vTitle"></h3><p id="vDesc"></p></div>
+    <div class="sec">
+      <div class="sec-h"><h3>সব ভিডিও</h3></div>
+      <div class="vlist" id="vlist"></div>
+    </div>
+  </section>
+
+  <!-- ===== LEFT page · সময়ের কণ্ঠ ===== -->
+  <section class="view" id="v-kontho" hidden>
+    <div class="page-head">
+      <span class="en" data-pn="kontho.en"></span>
+      <h2 tabindex="-1" data-pn="kontho.bn"></h2>
+      <svg class="orn" viewBox="0 0 260 18"><use href="#sOrn"/></svg>
+    </div>
+    <div class="audio-card">
+      <div class="arch" id="arch"><img id="aimg" alt=""></div>
+      <div class="ameta"><h3 id="aTitle"></h3><p id="aDesc"></p><span class="chip" id="achip"></span></div>
+      <div class="wave" id="wave" aria-hidden="true"></div>
+      <div class="acontrols">
+        <div class="arow">
+          <span class="time" id="acur">০:০০</span>
+          <input type="range" id="aseek" min="0" max="1000" value="0" aria-label="অডিওর অগ্রগতি">
+          <span class="time" id="adur">৩:০০</span>
+        </div>
+        <div class="arow" style="justify-content:space-between">
+          <div class="vol"><svg viewBox="0 0 24 24"><use href="#sSpk"/></svg><input type="range" id="avol" min="0" max="100" value="80" aria-label="শব্দের মাত্রা"></div>
+          <button class="cbtn big" id="app" aria-label="চালাও বা থামাও"><svg viewBox="0 0 24 24"><use id="appU" href="#sPlay"/></svg></button>
+          <span style="width:90px" aria-hidden="true"></span>
+        </div>
+      </div>
+      <p class="note" id="anote" hidden></p>
+      <audio id="aud" preload="metadata"></audio>
+    </div>
+    <div class="alist" id="alist" hidden></div>
+  </section>
+
+  <!-- ===== BOTTOM page · আয়োজনের রূপ (empty until real photos are added) ===== -->
+  <section class="view" id="v-puja" hidden>
+    <div class="page-head">
+      <span class="en" data-pn="puja.en"></span>
+      <h2 tabindex="-1" data-pn="puja.bn"></h2>
+      <svg class="orn" viewBox="0 0 260 18"><use href="#sOrn"/></svg>
+    </div>
+    <div class="sec" id="secStage" hidden><div class="sec-h"><h3>এ বছরের মণ্ডপ</h3></div><div class="gal" id="galStage"></div></div>
+    <div class="sec" id="secMem" hidden><div class="sec-h"><h3>আগের পূজার স্মৃতি</h3></div><div class="gal" id="galMem"></div></div>
+  </section>
+</div>
+
+<!-- lightbox -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="ছবি" hidden>
+  <button class="lbtn x" id="lbX" aria-label="বন্ধ করো">×</button>
+  <button class="lbtn p" id="lbP" aria-label="আগের ছবি">‹</button>
+  <figure><img id="lbImg" alt=""><video id="lbVid" controls playsinline hidden></video><figcaption id="lbCap" class="mute"></figcaption></figure>
+  <button class="lbtn n" id="lbN" aria-label="পরের ছবি">›</button>
+</div>
+
+<!-- share + QR -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="শেয়ার ও কিউআর কোড" hidden>
+  <div class="sheet">
+    <h3>কিউআর ও শেয়ার</h3>
+    <div class="qrbox" hidden><img id="qrImg" src="assets/qr.png" alt="এই পেজের কিউআর কোড" width="220" height="220"></div>
+    <p class="note" hidden>ফোনের ক্যামেরা দিয়ে স্ক্যান করলে এই পেজ খুলবে। ছবিটি চেপে ধরে সেভ করা যায়।</p>
+    <p class="url" id="urlTxt"></p>
+    <div class="row">
+      <button class="btn" id="copyBtn">লিংক কপি</button>
+      <button class="btn alt" id="nativeShare">শেয়ার করো</button>
+      
+    </div>
+    <button class="btn alt" id="mClose">বন্ধ করো</button>
+  </div>
+</div>
+<div class="welcome" id="welcome" role="dialog" aria-modal="true" aria-labelledby="wTitle" hidden>
+  <div class="w-card">
+    <div class="w-glow" aria-hidden="true"></div>
+    <div class="w-om" aria-hidden="true">ওঁ</div>
+    <span class="en" id="wKick"></span>
+    <h2 id="wTitle"></h2>
+    <svg class="orn" viewBox="0 0 260 18" aria-hidden="true"><use href="#sOrn"/></svg>
+    <p id="wText"></p>
+    <p class="w-from" id="wFrom"></p>
+    <button class="w-btn" id="wBtn" type="button"><span id="wBtnT"></span><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<script src="js/main.js"></script>
+</body>
+</html>
